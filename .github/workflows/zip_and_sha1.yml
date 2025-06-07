@@ -1,0 +1,38 @@
+name: zip System Texturepack
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      # Lösche alten Export
+      - run: rm -rf export
+      - run: mkdir -p export
+
+      # Erstelle ZIP mit Inhalt des texturepack-Ordners (ohne übergeordneten Ordner)
+      - run: |
+          cd texturepack
+          zip -r ../export/texturepack.zip *
+
+      # Berechne SHA1-Hash
+      - run: sha1sum export/texturepack.zip | awk '{ print $1 }' > export/hash.txt
+
+      # Erstelle texturepack.txt im Root mit URL und Hash
+      - run: |
+          echo "Download: https://raw.githubusercontent.com/mdfx1/SoulSmpResources/main/export/texturepack.zip" > texturepack.txt
+          echo "SHA1: $(cat export/hash.txt)" >> texturepack.txt
+
+      # Commit & Push
+      - run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add export/texturepack.zip export/hash.txt texturepack.txt
+          git commit -m "Update texturepack and hash"
+          git push
