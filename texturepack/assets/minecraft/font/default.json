@@ -1,0 +1,39 @@
+{"providers":[
+	{
+		"type": "bitmap",
+		"file": "minecraft:font/tablist/logo.png",
+		"height": 9,
+		"ascent": 9,
+		"chars": [
+			"\uEffa"
+		]
+	},
+	{
+		"type": "bitmap",
+		"file": "minecraft:font/tablist/ping.png",
+		"height": 9,
+		"ascent": 9,
+		"chars": [
+			"\uEffb"
+		]
+	},
+		{
+		"type": "bitmap",
+		"file": "minecraft:font/tablist/tps.png",
+		"height": 9,
+		"ascent": 9,
+		"chars": [
+			"\uEffc"
+		]
+	},
+		{
+		"type": "bitmap",
+		"file": "minecraft:font/tablist/ram.png",
+		"height": 9,
+		"ascent": 9,
+		"chars": [
+			"\uEffd"
+		]
+	}
+]
+}
