@@ -1,0 +1,14 @@
+{
+  "model": {
+  "type": "minecraft:range_dispatch",
+  "fallback": {
+    "type": "minecraft:model",
+    "model": "minecraft:block/carved_pumpkin"
+  },
+  "property": "minecraft:custom_model_data",
+  "entries": [
+        {"model": {"type": "minecraft:model", "model": "minecraft:item/sandrp_hat_small"}, "threshold": 1},
+        {"model": {"type": "minecraft:model", "model": "minecraft:item/sandrp_hat"}, "threshold": 2}
+    ]
+  }
+}
