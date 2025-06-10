@@ -1,2 +1,2 @@
-Download: https://raw.githubusercontent.com/sandrpp/SystemRP/main/export/texturepack.zip
-SHA1: b22d7ad36180f61c7c345454d5d2be81383dc0a4
+Download: https://raw.githubusercontent.com/mdfx1/SoulSmpResources/main/export/texturepack.zip
+SHA1: 0314e32ac37a64974f85caed98817cba7b95aa68
