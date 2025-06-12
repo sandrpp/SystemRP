@@ -112,6 +112,16 @@
         "diamond_darker": "minecraft:trims/color_palettes/diamond_darker",
         "netherite_darker": "minecraft:trims/color_palettes/netherite_darker"
       }
+    },
+    {
+      "type": "directory",
+      "source": "portal_guns",
+      "prefix": "portal_guns/"
+    },
+    {
+      "type": "directory",
+      "source": "gravity_guns",
+      "prefix": "gravity_guns/"
     }
   ]
 }
