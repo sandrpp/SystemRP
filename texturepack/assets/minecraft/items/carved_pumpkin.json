@@ -10,7 +10,8 @@
         {"model": {"type": "minecraft:model", "model": "minecraft:item/sandrp_hat_small"}, "threshold": 1},
         {"model": {"type": "minecraft:model", "model": "minecraft:item/sandrp_hat"}, "threshold": 2},
         {"model": {"type": "minecraft:model", "model": "minecraft:item/strawberryhat"}, "threshold": 3},
-        {"model": {"type": "minecraft:model", "model": "minecraft:item/redmushroomcaphat"}, "threshold": 4}
+        {"model": {"type": "minecraft:model", "model": "minecraft:item/redmushroomcaphat"}, "threshold": 4},
+        {"model": {"type": "minecraft:model", "model": "minecraft:item/russianhat"}, "threshold": 5}
     ]
   }
 }
