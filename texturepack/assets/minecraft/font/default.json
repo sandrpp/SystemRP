@@ -1,7 +1,7 @@
 {"providers":[
 	{
 		"type": "bitmap",
-		"file": "minecraft:font/tablist/logo.png",
+		"file": "minecraft:font/tablist/matse.png",
 		"height": 9,
 		"ascent": 9,
 		"chars": [
