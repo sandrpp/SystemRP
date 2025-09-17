@@ -34,6 +34,15 @@
 		"chars": [
 			"\uEffd"
 		]
+	},
+	{
+		"type": "bitmap",
+		"file": "minecraft:font/tablist/friendly.png",
+		"height": 9,
+		"ascent": 9,
+		"chars": [
+			"蓵"
+		]
 	}
 ]
 }
